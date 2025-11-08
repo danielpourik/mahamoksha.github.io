@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>موهاموکشا | مرکز یوگا و مدیتیشن</title>
+
+  <!-- Persian Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --primary: #9c27b0;
+      --secondary: #ffb300;
+      --accent: #ff80ab;
+      --bg: #fdf5ff;
+      --text: #333;
+      --gradient: linear-gradient(135deg, #9c27b0, #ffb300, #ff80ab);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Vazirmatn", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+      line-height: 1.8;
+    }
+
+    header {
+      background: var(--gradient);
+      color: white;
+      padding: 16px 0;
+      text-align: center;
+      box-shadow: 0 6px 16px #00000030;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 500;
+      transition: opacity 0.3s ease;
+    }
+
+    nav a:hover {
+      opacity: 0.8;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #ffe0f0, #fff0d4, #e8d4ff);
+      padding: 60px 20px;
+      text-align: center;
+      animation: fadeIn 1s ease-out;
+    }
+
+    .hero h2 {
+      color: var(--primary);
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--gradient);
+      color: white;
+      padding: 10px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 6px 14px #00000030;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px #00000040;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 1.7rem;
+      color: var(--primary);
+      margin-bottom: 20px;
+    }
+
+    section p {
+      text-align: center;
+      color: #555;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+      text-align: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 10px 30px #00000015;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: var(--secondary);
+      margin-bottom: 10px;
+    }
+
+    .benefits {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 30px;
+    }
+
+    .benefit {
+      background: linear-gradient(135deg, #f3e5f5, #ffe0b2, #f8bbd0);
+      border-radius: 20px;
+      padding: 16px 24px;
+      font-size: 0.95rem;
+      color: #444;
+      flex: 1 1 250px;
+      box-shadow: 0 6px 14px #00000020;
+    }
+
+    .benefit strong {
+      color: var(--primary);
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    form {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px #00000015;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    input, textarea {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 15px;
+      font-family: inherit;
+      font-size: 1rem;
+    }
+
+    input:focus, textarea:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px #ffb3cc60;
+      outline: none;
+    }
+
+    footer {
+      background: var(--gradient);
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      box-shadow: 0 -6px 16px #00000030;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>موهاموکشا | Mohamoksha</h1>
+    <nav>
+      <a href="#about">درباره ما</a>
+      <a href="#benefits">مزایا</a>
+      <a href="#contact">تماس</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>آرامش در حرکت، حضور در لحظه</h2>
+    <p>در موهاموکشا، یوگا و مدیتیشن فقط تمرین نیست — سفر درونی برای آگاهی، عشق و رهایی است.</p>
+    <a href="#contact" class="btn">شروع سفر آرامش</a>
+  </section>
+
+  <section id="about">
+    <h2>درباره موهاموکشا</h2>
+    <p>موهاموکشا ترکیبی از دو واژه سانسکریت است: «موها» به‌معنای توهم، و «موکشا» به‌معنای رهایی.
+       هدف ما، رهایی از تنش‌های ذهن و بدن از طریق یوگا، تنفس و مدیتیشن است.</p>
+
+    <div class="features">
+      <div class="card">
+        <h3>کلاس‌های یوگا</h3>
+        <p>کلاس‌های حضوری و آنلاین با مربیان مجرب در سبک‌های مختلف: هاتا، وینیاسا، آشتانگا.</p>
+      </div>
+      <div class="card">
+        <h3>مدیتیشن هدایت‌شده</h3>
+        <p>جلسات آرام‌سازی ذهن، تنفس آگاهانه و حضور در لحظه برای همه سطوح.</p>
+      </div>
+      <div class="card">
+        <h3>کارگاه‌های ویژه</h3>
+        <p>کارگاه‌های تمرکز، یوگای صوت، و درمان انرژی برای رشد درونی و هماهنگی.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits">
+    <h2>مزایای یوگا و مدیتیشن</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <strong>آرامش ذهنی</strong>
+        کاهش استرس و اضطراب با تمرین تنفس و حضور در لحظه.
+      </div>
+      <div class="benefit">
+        <strong>قدرت و انعطاف</strong>
+        بهبود وضعیت بدنی و هماهنگی بین ذهن و عضلات.
+      </div>
+      <div class="benefit">
+        <strong>شفافیت ذهن</strong>
+        افزایش تمرکز و وضوح فکری برای تصمیم‌گیری بهتر.
+      </div>
+      <div class="benefit">
+        <strong>اتصال درونی</strong>
+        ارتباط عمیق‌تر با خود و احساس رهایی از نگرانی‌ها.
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>ارتباط با ما</h2>
+    <form>
+      <label for="name">نام</label>
+      <input id="name" name="name" type="text" placeholder="نام شما" />
+      <label for="phone">شماره تماس</label>
+      <input id="phone" name="phone" type="tel" placeholder="۰۹۱۲..." />
+      <label for="message">پیام</label>
+      <textarea id="message" name="message" placeholder="سؤال یا درخواست خود را بنویسید"></textarea>
+      <button class="btn" type="submit">ارسال پیام</button>
+    </form>
+  </section>
+
+  <footer>
+    © <span id="year"></span> موهاموکشا | Mohamoksha — مرکز یوگا و مدیتیشن
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
