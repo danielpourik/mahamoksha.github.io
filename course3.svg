@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="courseGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#courseGradient3)"/>
+  
+  <!-- Vedic/Wisdom Symbol -->
+  <g transform="translate(200, 100)" fill="none" stroke="#fff" stroke-width="2.5" opacity="0.9">
+    <!-- Om/Sacred symbol -->
+    <circle cx="0" cy="0" r="35"/>
+    <path d="M -20 -15 Q -10 -25 0 -15 Q 10 -25 20 -15" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -15 5 Q 0 15 15 5"/>
+    <!-- Decorative elements -->
+    <circle cx="0" cy="0" r="45" opacity="0.5"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="260" font-size="24" font-weight="bold" text-anchor="middle" fill="#fff">حکمت ودایی</text>
+</svg>

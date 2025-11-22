@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="courseGradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#654300;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#courseGradient4)"/>
+  
+  <!-- Heart/Self-knowledge Symbol -->
+  <g transform="translate(200, 100)" fill="#fff" opacity="0.9">
+    <!-- Heart shape -->
+    <path d="M 0 15 C -20 0 -40 -10 -40 -20 C -40 -35 -25 -45 -10 -45 C 0 -35 15 -25 0 15 C -15 -25 0 -35 10 -45 C 25 -45 40 -35 40 -20 C 40 -10 20 0 0 15" fill="#fff"/>
+    <!-- Inner circle -->
+    <circle cx="0" cy="-5" r="15" fill="#D4AF37" opacity="0.8"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="260" font-size="22" font-weight="bold" text-anchor="middle" fill="#fff">خودشناسی</text>
+</svg>
